@@ -36,6 +36,7 @@ public class Main {
         devMarcio.setNome("Márcio");
         devMarcio.inscreverBootcamp(bootCamp);
         devMarcio.progredir();
+        devMarcio.excluirCadastroBootcamp(bootCamp);
 
 
         System.out.println("Conteúdos Inscritos Márcio: " + devMarcio.getConteudosInscritos());

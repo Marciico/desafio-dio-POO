@@ -35,6 +35,12 @@ public class Dev {
                 .sum();
     }
 
+    public void excluirCadastroBootcamp(BootCamp bootcamp) {
+        bootcamp.getDevsInscritos().remove(this);
+        this.conteudosInscritos.clear();
+        this.conteudosConcluidos.clear();
+    }
+
     public String getNome() {
         return nome;
     }
